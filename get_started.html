@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="./javascript.js"></script>
+	<title> Stevens Tutoring </title>
+</head>
+
+<body>
+	<div>
+		<nav>
+			<h3 class="navi"> Stevens Tutoring </h3>
+			<div class="nav-links">
+				<ul>
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="get_started.html"> Get Started </a></li>
+					<li><a href="about.html"> About </a></li>
+					<li><a href="tips.html"> Tips </a></li>
+					<li><a href="videos.html"> Videos </a></li>
+					<li><a href="external_sources.html"> External Sources </a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	
+	<br>
+	<div class="main-title">
+		<h1> Getting Started </h1>
+	</div>
+
+	<div class="info">
+		<h3 class="info-title"> Welcome </h3>
+		<p> In order for you to receive the utmost personalized tutoring tips and advice, please answer the following survey questions to the best of your knowledge. </p>
+	</div>
+	
+	<br>
+	<div>
+		<h2 class="title"> Quick Survey </h2>
+		<div class="survey">
+			<form id="form">
+			<table>
+				<tr>
+					<th> Question </th>
+					<th> Response </th>
+				</tr>
+				<tr>
+					<td> First Name: </td>
+					<td>
+						<input type="text" id="first_name">
+					</td>
+				</tr>
+				<tr>
+					<td> Last Name: </td>
+					<td>
+						<input type="text" id="last_name">
+					</td>
+				</tr>
+				<tr>
+					<td> Email: </td>
+					<td>
+						<input type="email" placeholder="asmith@gmail.com" id="email">
+					</td>
+				</tr>
+				<tr>
+					<td> Year: </td>
+					<td>
+						<select name="choices" id="year">
+							<option> Freshman </option>
+							<option> Sophomore </option>
+							<option> Junior </option>
+							<option> Senior </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> Who do you normally ask for tutoring help? </td>
+					<td>
+						<select name="choices" id="tutor_who">
+							<option> Friend </option>
+							<option> Professor </option>
+							<option> Professional Tutor </option>
+							<option> Volunteer Tutor </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> How often do you voluntarily seek homework or study help? </td>
+					<td> 
+						<select name="choices" id="tutor_often">
+							<option> Very Often </option>
+							<option> Occasionally </option>
+							<option> Rarely </option>
+							<option> Never </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> How much time do you put into studying before an exam? </td>
+					<td> 
+						<select name="choices" id="study">
+							<option value='4'> 4+ Hours </option>
+							<option value='3'> 3 Hours </option>
+							<option value='2'> 2 Hours </option>
+							<option value='1'> 1 Hour </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> Which of the following do you feel most comfortable using to study? </td>
+					<td>
+						<select name="choices" id="study_material">
+							<option value='exams'> Previous Exams or Assigments </option>
+							<option value='notes'> Lecture Notes </option>
+							<option value='problems'> Practice Problems </option>
+							<option value='videos'> Video Tutorials </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> On a scale of 1-4 (4 being the highest), how much stress do you experience while studying or doing homework assignments? </td>
+					<td>
+						<input type="number" min="1" max="4" id="stress">
+					</td>
+				</tr>
+				<tr>
+					<td> On average, how many hours of sleep do you get? </td>
+					<td>
+						<select name="choices" id="sleep">
+							<option value='10'> 10+ Hours </option>
+							<option value='8'> 8 Hours </option>
+							<option value='6'> 6 Hours </option>
+							<option value='4'> 4 Hours </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> Out of which of the following gives you the most trouble? </td>
+					<td>
+						<select name="choices" id="trouble">
+							<option value='crit'> Critical Thinking </option>
+							<option value='reading'> Reading </option>
+							<option value='writing'> Extensive Writing </option>
+							<option value='focus'> Staying Focused Overall </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> Would you consider the work you put into your education to be "100%"? </td>
+					<td> 
+						<select name="choices" id="work_effort">
+							<option value='yes'> Definitely Yes </option>
+							<option value='no'> Absolutely Not </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> Where do you usually study or work on homework assignments? </td>
+					<td>
+						<select name="choices" id="study_place">
+							<option value='room'> Your Own Room </option>
+							<option value='library'> Library </option>
+							<option value='food'> Food Places </option>
+							<option value='anywhere'> Anywhere </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> Does your professor provide ample office hours to ask for assistance. </td>
+					<td>
+						<select name="choices" id="office_hours">
+							<option value='yes'> Yup </option>
+							<option value='no'> Nope </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> As of right now, how confident are you that you will pass your next exam on your hardest class? </td>
+					<td>
+						<select name="choices" id="hardest_class_confidence">
+							<option value='confident'> Very Confident </option>
+							<option value='not_confident'> Not As Confident </option>
+							<option value='fail'> Will Probably Fail </option>
+							<option value='help'> Please Help Me </option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			</form>
+			<br>
+			<input type="submit" id="submitBTN">
+			<br>
+			<input type="reset" id="resetBTN">
+		</form>
+		</div>
+		<section id="tips_java"> Tip Generator </section>
+	</div>
+	
+	<br>
+	<div>
+		<img id="stevens" src="images/Stevens_logo.png">
+	</div>
+
+	<div class="slogan">
+		<h4> "A class above. Guaranteed." <h4>
+	</div>
+	
+	<div class="top">
+		<a href="#top"> Go to top </a>
+	</div>
+	
+</body>
+</html>

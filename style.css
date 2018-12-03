@@ -1,0 +1,501 @@
+/* All Pages */
+body
+{
+	background-color: #e1e8f0;
+}
+
+nav
+{
+    background-color: #e0474c;
+    height: 75px;
+	width: 100%;
+}
+
+.navi
+{
+	color: #fff;
+    font-size: 25px;
+    margin-left: 15px;
+	text-align: center;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+.nav-links a
+{
+    background-color: #e0474c;
+    box-shadow: 0 0 0 transparent;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+.nav-links a:hover
+{
+    background-color: #ffc107;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1, 1.1);
+}
+
+.nav-links
+{
+    margin-right: 15px;
+}
+
+nav li
+{
+    height: 50px;
+}
+  
+nav, nav ul, nav li, nav .logo, nav .logo a, nav .nav-links a
+{
+  display: flex;
+}
+
+nav .nav-links a
+{
+  align-items: center;
+}
+
+nav
+{
+  justify-content: space-between;
+}
+
+.content
+{
+	background-color: #ffa000;
+	margin: 16px auto;
+	padding: 16px;
+	box-shadow: 0px 0px 4px black;
+	border-radius: 10px;
+	width: 600px;
+	text-align: center;
+	color: white;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+#stevens
+{
+	width: 150px;
+	height: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slogan
+{
+	font-style: italic;
+	color: red;
+	text-align: center;
+}
+
+.top
+{
+	text-align: center;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+.main-title
+{
+	color: blue;
+	text-align: center;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+.title
+{
+	text-align: center;
+	color: red;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+textarea
+{
+	resize: none;
+	width: 600px;
+	height: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback_section
+{
+	text-align: center;
+}
+
+
+/* Index Page*/
+.pic-content
+{
+	background-color: #ffa000;
+	margin: 16px auto;
+	padding: 10px;
+	box-shadow: 10px 10px 15px grey;
+	border-radius: 20px;
+	width: 800px;
+}
+
+.list
+{
+	background-color: #ffa000;
+	margin: 16px auto;
+	padding: 10px;
+	box-shadow: 15px 15px 10px grey;
+	border-radius: 20px;
+	width: 800px;
+	color: white;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+.reviews
+{
+	background-color: #ffa000;
+	margin: 16px auto;
+	padding: 16px;
+	box-shadow: 0px 0px 4px black;
+	width: 800px;
+	height: 400px;
+	color: white;
+	overflow: auto;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+.stars
+{
+	color: black;
+}
+
+.date
+{
+	font-style: italic;
+}
+
+.h-line
+{
+	border-top: 5px dotted black;
+	border-bottom: 0px;
+}
+
+
+/* Get Started Page */
+.info
+{
+	background-color: #8B008B;
+	margin: 16px auto;
+	padding: 16px;
+	box-shadow: 0px 0px 4px black;
+	border-radius: 10px;
+	width: 500px;
+	text-align: center;
+	color: white;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+.info-title
+{
+	font-weight: bold;
+	color: #FF8C00;
+}
+
+.survey
+{
+	background-color: #8B008B;
+	margin: 16px auto;
+	padding: 16px;
+	box-shadow: 0px 0px 4px black;
+	border-radius: 10px;
+	width: 700px;
+	text-align: center;
+	color: white;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+form
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table
+{
+	width: 100%;
+}
+
+td
+{
+	border: 1px solid yellow;
+}
+
+th
+{
+	color: #FF8C00;
+
+}
+
+select
+{
+	cursor: pointer;
+}
+
+#submitBTN, #resetBTN
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tips_java
+{
+	background-color: #ffa000;
+	margin: 16px auto;
+	padding: 16px;
+	box-shadow: 0px 0px 4px black;
+	border-radius: 10px;
+	width: 600px;
+	color: white;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+
+/* About Page */
+.creators
+{
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	color: white;
+	background-color: #4169E1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 15px;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+
+/* Tips Page */
+.tips
+{
+	list-style-type: circle;
+	color: white;
+	background-color: #4169E1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 15px;
+	font-family: Verdana, Georgia, Bookman, Times;
+	line-height: 1.5;
+}
+
+.tips-bold
+{
+	font-weight: bold;
+	color: #ffa000;
+}
+
+
+/* Videos Page */
+.videos
+{
+	display: flex;
+	flex-direction: column;
+}
+
+iframe
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 680px;
+	height: 320px;
+	border-style: none;
+}
+
+
+/* External Sources Page */
+.external ul
+{
+	list-style-type: none;
+	color: white;
+	background-color: #228B22;
+	padding: 20px 20px;
+	border-radius: 15px;
+	font-family: Verdana, Georgia, Bookman, Times;
+}
+
+.external a
+{
+	font-weight: bold;
+	color: #FBDB0C;
+	font-size: 20pt;
+}
+
+.external li
+{
+	margin: 10px 0;
+}
+
+.external-emph
+{
+	font-style: italic;
+}
+
+
+/* Desktop Responsive Design */
+@media only screen and (min-width: 999px)
+{
+	.navi
+	{
+		color: cyan;
+	}
+}
+
+
+/* Tablet Responsive Design */
+@media only screen and (min-width: 600px) and (max-width: 998px)
+{
+	.navi
+	{
+		color: pink;
+	}
+	
+	nav
+	{
+		height: 75%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	#home_img
+	{
+		width: 85%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.pic-content, .list, #tips_java
+	{
+		width: 75%;
+	}
+	
+	.content
+	{
+		width: 65%;
+	}
+	
+	.reviews, textarea
+	{
+		width: 85%;
+	}
+	
+	.tips
+	{
+		width: 75%;
+		padding: 30px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	iframe
+	{
+		width: 520px;
+		height: 300px;
+	}
+	
+	form
+	{
+		width: 90%;
+	}
+	
+	.info, .survey
+	{
+		width: 90%;
+	}
+}
+
+
+/* Phone Responsive Design */
+@media only screen and (max-width: 599px)
+{
+	.navi
+	{
+		color: yellow;
+	}
+	
+	nav
+	{
+		height: 380px;
+		width: 85%;
+		flex-wrap: wrap;
+		font-size: 100%;
+		padding: 5px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.nav-links
+	{
+		display: flex;
+		justify-content: flex-center;
+	}
+	
+	#home_img
+	{
+		width: 85%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.pic-content, .list, #tips_java
+	{
+		width: 75%;
+	}
+	
+	.content
+	{
+		width: 65%;
+	}
+	
+	.reviews, textarea
+	{
+		width: 85%;
+	}
+	
+	.tips
+	{
+		width: 75%;
+		padding: 30px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	
+	nav, nav ul, nav li, nav .logo, nav .logo a, nav .nav-links a
+	{
+		display: block;
+	}
+	
+	iframe
+	{
+		width: 400px;
+		height: 250px;
+	}
+	
+	form
+	{
+		width: 80%;
+	}
+	
+	.info, .survey
+	{
+		width: 90%;
+	}
+}
